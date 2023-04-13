@@ -16,7 +16,7 @@ setup(name='tap-sendgrid',
       install_requires=requirements,
       entry_points='''
           [console_scripts]
-          tap-sendgrid=tap_sendgrid:main
+          tap-sendgrid=tap_sendgrid.tap:cli
       ''',
       packages=['tap_sendgrid'],
       include_package_data=True

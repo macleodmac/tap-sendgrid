@@ -34,5 +34,4 @@ class Tapsendgrid(Tap):
         ]
 
 
-if __name__ == "__main__":
-    Tapsendgrid.cli()
+cli = Tapsendgrid.cli()
